@@ -7,7 +7,7 @@ window.ASDER_CONFIG = {
   // Canal conversacional de la demo: "telegram" (ejercicio) | "whatsapp" (producción).
   CHAT_CHANNEL_PRIMARY: "telegram",
   // Username del bot sin @ (el que cree Santiago en BotFather). Vacío = el widget usa WhatsApp.
-  TELEGRAM_BOT_USERNAME: "asder_ejercicio_bot",
+  TELEGRAM_BOT_USERNAME: "ASDER_DEMO_bot",
   // Número de pruebas; reemplazar por el oficial de ASDER (313 219 5733 → "573132195733") en producción.
   WHATSAPP_NUMBER: "573125122873",
 

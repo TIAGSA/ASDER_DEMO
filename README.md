@@ -66,7 +66,7 @@ Para Vercel: *Add New → Project → Import* la carpeta; no necesita build (fra
 Todo se decide en `assets/js/config.js`:
 
 - `CHAT_CHANNEL_PRIMARY`: `"telegram"` durante el ejercicio, `"whatsapp"` en producción.
-- `TELEGRAM_BOT_USERNAME`: username del bot sin `@` (placeholder `asder_ejercicio_bot` hasta que Santiago lo cree en BotFather). Si queda vacío y el canal es Telegram, todos los enlaces caen a WhatsApp.
+- `TELEGRAM_BOT_USERNAME`: username del bot sin `@`: `ASDER_DEMO_bot` (creado el 17-nov-2026; deep link `https://t.me/ASDER_DEMO_bot?start=<payload>`). Si queda vacío y el canal es Telegram, todos los enlaces caen a WhatsApp.
 - `WHATSAPP_NUMBER`: número de pruebas `573125122873`; en producción el oficial de ASDER (`573132195733`).
 
 Ningún HTML tiene username ni número: `main.js` construye los enlaces. Un botón lleva `data-chat="<payload>"`
