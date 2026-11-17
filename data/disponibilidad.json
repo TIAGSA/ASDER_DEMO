@@ -1,0 +1,277 @@
+{
+  "nota": "agenda de muestra: bloques y reservas de ejemplo para la demo; la disponibilidad real se confirma por chat",
+  "_nota": "Datos de ejemplo para la demo. Cada registro es un bloque en la retícula: 'semanal' repite el bloque esos días (1 = lunes … 7 = domingo); 'fecha' lo fija a un día (si todas las fechas quedan en el pasado, la web las desplaza en semanas completas). tipo: clase | reservado. Lo que no esté aquí se muestra como disponible. En producción esto vive en una hoja de Google publicada como CSV con las mismas columnas (ver README).",
+  "espacios": [
+    {
+      "id": "cancha-1",
+      "nombre": "Cancha 1"
+    },
+    {
+      "id": "cancha-2",
+      "nombre": "Cancha 2"
+    },
+    {
+      "id": "badminton",
+      "nombre": "Bádminton"
+    },
+    {
+      "id": "tenis-de-mesa",
+      "nombre": "Tenis de mesa"
+    },
+    {
+      "id": "simuladores",
+      "nombre": "Simuladores"
+    },
+    {
+      "id": "visita-coliseo",
+      "nombre": "Visita al coliseo"
+    },
+    {
+      "id": "llamada-cotizacion",
+      "nombre": "Llamada de cotización"
+    }
+  ],
+  "bloques": [
+    {
+      "id": "cl-kids-1",
+      "tipo": "clase",
+      "servicio": "clase-prueba-kids",
+      "espacio": "cancha-1",
+      "semanal": [
+        2,
+        4
+      ],
+      "hora": "16:00",
+      "duracion": 90,
+      "titulo": "Clase de prueba · Voleibol Kids",
+      "cupos": "abiertos"
+    },
+    {
+      "id": "cl-kids-2",
+      "tipo": "clase",
+      "servicio": "clase-prueba-kids",
+      "espacio": "cancha-1",
+      "semanal": [
+        6
+      ],
+      "hora": "09:00",
+      "duracion": 90,
+      "titulo": "Clase de prueba · Voleibol Kids",
+      "cupos": "abiertos"
+    },
+    {
+      "id": "cl-young-1",
+      "tipo": "clase",
+      "servicio": "clase-prueba-young",
+      "espacio": "cancha-2",
+      "semanal": [
+        2,
+        4
+      ],
+      "hora": "17:30",
+      "duracion": 90,
+      "titulo": "Clase de prueba · Voleibol Young",
+      "cupos": "abiertos"
+    },
+    {
+      "id": "cl-young-2",
+      "tipo": "clase",
+      "servicio": "clase-prueba-young",
+      "espacio": "cancha-2",
+      "semanal": [
+        6
+      ],
+      "hora": "10:30",
+      "duracion": 90,
+      "titulo": "Clase de prueba · Voleibol Young",
+      "cupos": "cerrados"
+    },
+    {
+      "id": "cl-vac-kids",
+      "tipo": "clase",
+      "servicio": "vacacional",
+      "espacio": "cancha-1",
+      "semanal": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "hora": "14:00",
+      "duracion": 120,
+      "titulo": "Vacacional Kids",
+      "cupos": "abiertos"
+    },
+    {
+      "id": "cl-vac-young",
+      "tipo": "clase",
+      "servicio": "vacacional",
+      "espacio": "cancha-2",
+      "semanal": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "hora": "14:00",
+      "duracion": 120,
+      "titulo": "Vacacional Young",
+      "cupos": "abiertos"
+    },
+    {
+      "id": "cl-adultos",
+      "tipo": "clase",
+      "servicio": "voleibol-adultos",
+      "espacio": "cancha-1",
+      "semanal": [
+        1,
+        3
+      ],
+      "hora": "19:00",
+      "duracion": 90,
+      "titulo": "Voleibol adultos",
+      "cupos": "cerrados"
+    },
+    {
+      "id": "cl-badminton",
+      "tipo": "clase",
+      "servicio": "escuela-badminton",
+      "espacio": "badminton",
+      "semanal": [
+        6
+      ],
+      "hora": "14:00",
+      "duracion": 120,
+      "titulo": "Escuela de bádminton",
+      "cupos": "abiertos"
+    },
+    {
+      "id": "rv-1",
+      "tipo": "reservado",
+      "espacio": "cancha-2",
+      "semanal": [
+        3
+      ],
+      "hora": "19:00",
+      "duracion": 120,
+      "titulo": "Reservado",
+      "nombre": "Liga Élite · entrenamiento"
+    },
+    {
+      "id": "rv-2",
+      "tipo": "reservado",
+      "espacio": "cancha-1",
+      "semanal": [
+        4
+      ],
+      "hora": "20:00",
+      "duracion": 90,
+      "titulo": "Privado",
+      "privado": true
+    },
+    {
+      "id": "rv-3",
+      "tipo": "reservado",
+      "espacio": "tenis-de-mesa",
+      "semanal": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "hora": "18:00",
+      "duracion": 120,
+      "titulo": "Reservado",
+      "nombre": "Club de tenis de mesa"
+    },
+    {
+      "id": "rv-4",
+      "tipo": "reservado",
+      "espacio": "simuladores",
+      "semanal": [
+        2,
+        4
+      ],
+      "hora": "06:00",
+      "duracion": 60,
+      "titulo": "Reservado",
+      "nombre": "Grupo ciclismo"
+    },
+    {
+      "id": "rv-5",
+      "tipo": "reservado",
+      "espacio": "cancha-1",
+      "fecha": "2026-11-21",
+      "hora": "15:00",
+      "duracion": 180,
+      "titulo": "Reservado",
+      "nombre": "Torneo mixto empresarial"
+    },
+    {
+      "id": "rv-6",
+      "tipo": "reservado",
+      "espacio": "cancha-2",
+      "fecha": "2026-11-21",
+      "hora": "15:00",
+      "duracion": 180,
+      "titulo": "Reservado",
+      "nombre": "Torneo mixto empresarial"
+    },
+    {
+      "id": "rv-7",
+      "tipo": "reservado",
+      "espacio": "badminton",
+      "fecha": "2026-11-18",
+      "hora": "19:00",
+      "duracion": 60,
+      "titulo": "Privado",
+      "privado": true
+    },
+    {
+      "id": "rv-8",
+      "tipo": "reservado",
+      "espacio": "simuladores",
+      "fecha": "2026-11-19",
+      "hora": "17:00",
+      "duracion": 60,
+      "titulo": "Reservado",
+      "nombre": "Andrés M."
+    },
+    {
+      "id": "vc-1",
+      "tipo": "reservado",
+      "espacio": "visita-coliseo",
+      "semanal": [
+        3
+      ],
+      "hora": "15:00",
+      "duracion": 60,
+      "titulo": "Reservado",
+      "nombre": "Visita empresa"
+    },
+    {
+      "id": "vc-2",
+      "tipo": "reservado",
+      "espacio": "llamada-cotizacion",
+      "semanal": [
+        2,
+        4
+      ],
+      "hora": "11:00",
+      "duracion": 30,
+      "titulo": "Reservado",
+      "nombre": "Llamada"
+    },
+    {
+      "id": "vc-3",
+      "tipo": "reservado",
+      "espacio": "visita-coliseo",
+      "fecha": "2026-11-20",
+      "hora": "10:00",
+      "duracion": 60,
+      "titulo": "Privado",
+      "privado": true
+    }
+  ]
+}
